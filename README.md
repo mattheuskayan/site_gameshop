@@ -1,7 +1,6 @@
 # site_gameshop2
 
- Primeiro projeto do curso de formação FrontEnd.
+ Primeiro projeto do curso de formação FrontEnd na EBAC.
 
- Link do projeto publicado na Vercel.com 😁
+ Link do [projeto](https://site-gameshop-lime-nu.vercel.app/) publicado na Vercel.com 😁
  
-👉 https://site-gameshop-lime-nu.vercel.app/
