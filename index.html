@@ -1,98 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <!-- Metas tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Shop - A sua looja de games</title>
-    <link rel="stylesheet" href="./main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <title>Game Shop</title>
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <h1>Game Shop</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#sobre">Sobre a loja</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contato</a>
-                    </li>                    
-                </ul>
-            </nav>
-        </div>        
-    </header>
-    <section id="sobre">
-        <div class="container">
-            <img class="store-front" src="./images/loja.jpg" alt="Fachada da loja">
-            <div>
-                 <h2>Sobre a loja</h2>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates mollitia animi totam odit earum nesciunt! Natus accusantium reprehenderit dolorem consequatur magnam laudantium porro, vitae voluptatibus ipsam soluta hic, adipisci recusandae!
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, in quidem. Temporibus in exercitationem et, autem optio velit blanditiis eveniet quae soluta nulla, labore ipsam iure earum quas natus? Fuga.
-                </p>
-                <ul class="brands-list">
-                    <li><img src="./images/nintendo.png" alt="Nitendo"></li>
-                    <li><img src="./images/playstation.png" alt="Playstation"></li>
-                    <li><img src="./images/xbox.png" alt="Xbox"></li>
-                </ul>
-            </div>
+    <nav class="navbar col-11 m-auto navbar-expand-lg navbar-light bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Game Shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Acompanhe</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-    </section>
-    <section id="contact">
-        <div class="container">
-            <h2>Contato</h2>
-            <div class="contact-methods">
-                <div>
-                    <h3>Fale conosco</h3>
-                    <form>
-                        <input type="text" placeholder="Seu nome" required/>
-                        <input type="email" placeholder="Seu e-mail" required/>
-                        <input type="tel" placeholder="Seu telefone"/>
-                        <textarea placeholder="Sua mensagem" required></textarea>
-                        <button type="submit">Enviar</button>
-                    </form>
-                </div>
-                <div>
-                    <h3>Nos acompanhe</h3>
-                    <ul class="social-links">
-                        <li> 
-                            <a href="#" title="Siga-nos no instagram">
-                                <img src="./images/instagram.png" alt="Logo do insta"/>
-                            </a>
-                        </li>
-                        <li> 
-                            <a href="#" title="Siga-nos no Facebook">
-                                <img src="./images/facebook.png" alt="Logo do Face"/>
-                            </a>
-                        </li>
-                        <li> 
-                            <a href="#" title="Visite nosso canal do YouTube">
-                                <img src="./images/youtube.png" alt="Logo do YouTube"/>
-                            </a>
-                        </li>                                                                                                                               
-                    </ul>
-                </div>
-                <div>
-                    <h3>Venha até nós</h3>
-                    <p>
-                        Avenida Filadelfia nº 1136, Setor Oeste, Araguaína-TO.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
+    </nav>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      
+
+
+
+
+
+
+    
+    <!-- <footer>
         <div class="container">
             <p>
                 &copy; Games Shop - Todos os direitos reservados 2023 - By Matheus Kayan
             </p>
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>
